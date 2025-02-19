@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 const BlogSidebarPage = () => {
-  return <BlogSidebarClient />;
+  return
 };
 
 export default BlogSidebarPage;

@@ -48,7 +48,7 @@ const BlogSidebarClient = () => {
                     onClick={() => setSelectedImage(item.href)}
                   >
                     
-                    <RelatedPost id={item.id} href={item.href} />
+                    {/* <RelatedPost id={item.id} href={item.href} /> */}
                   </li>
                 ))}
               </ul>

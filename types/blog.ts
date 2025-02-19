@@ -6,9 +6,8 @@ type Author = {
 
 export type Blog = {
   id: number;
-  col: string;
-  row: string;
+  col: number;
+  row: number;
   image: string;
-  author: Author;
   tags: string[];
 };
