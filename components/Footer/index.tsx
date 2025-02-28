@@ -73,7 +73,7 @@ const Footer = () => {
 
         </a>
         <a
-          href="mailto:example@example.com"
+          href="mailto:Puertasblindadas773@gmail.com"
           className="transition-all transform hover:scale-125 hover:rotate-12 ease-in-out duration-300 shadow-lg"
         >
           <svg
