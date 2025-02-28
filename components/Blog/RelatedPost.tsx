@@ -6,14 +6,14 @@ const RelatedPost = ({
   href,
 
 }: {
-  id: string;
+  id: number;
   href: string;
 }) => {
   return (
     <div className="lg:block xl:flex">
       <div className="mr-5 lg:mb-3 xl:mb-0">
         <div className="relative h-[160px] w-[170px] overflow-hidden rounded-md sm:h-[175px] sm:w-[185px]">
-          <Image src={href} alt={id} fill />
+          <Image src={href} alt='image' fill />
         </div>
       </div>
       <div className="w-full">
