@@ -40,7 +40,7 @@ const BlogSidebarClient = () => {
                 Tous les images
               </h3>
 
-              <ul className="p-8 grid grid-cols-7 xl:block xl:overflow-auto xl:h-[896px]">
+              <ul className="p-8 grid grid-cols-2  xl:block xl:overflow-auto xl:h-[896px]">
                 {blogData.map((item, index) => (
                   <li
                     key={index}

@@ -26,7 +26,7 @@ const Blog = () => {
         <div className="p-2 mt-3 flex justify-center">
           <div>
             <Link
-              href="/images"
+              href="/blog-sidebar"
               className=" shadow-submit dark:shadow-submit-dark rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90" >
               Afficher Nos Derniers Articles
             </Link>
