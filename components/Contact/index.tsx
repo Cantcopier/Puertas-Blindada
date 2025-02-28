@@ -34,21 +34,23 @@ const Contact = () => {
     return errors;
   };
 
-  const handleFormSubmit = (e: React.FormEvent) => {
+  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    const name = (e.target as HTMLFormElement).name.value;
-    const email = (e.target as HTMLFormElement).email.value;
-    const message = (e.target as HTMLFormElement).message.value;
-
+    
+    const form = e.target as HTMLFormElement;
+    const name = form.value;
+    const email = form.email.value;
+    const message = form.message.value;
+  
     const errors = validateForm(name, email, message);
-
+  
     if (Object.keys(errors).length === 0) {
       handleSubmit(e);
     } else {
       setFormErrors(errors);
     }
   };
+  
 
   useEffect(() => {
     if (state.succeeded) {
