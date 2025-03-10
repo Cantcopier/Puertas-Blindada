@@ -11,8 +11,8 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Nos Derniers Articles"
-          paragraph="Découvrez nos dernières réalisations et conseils en métallerie. Nous partageons notre expertise et nos inspirations pour des conceptions uniques et durables."
+          title="Nuestros Últimos Proyectos en Puertas para el Hogar"
+          paragraph="En el marco de nuestro compromiso permanente con la excelencia y la innovación, nos enorgullece presentar una selección de nuestros proyectos más recientes en el diseño y fabricación de puertas para el hogar. Cada creación refleja una combinación única de artesanía de alta calidad y diseño contemporáneo, asegurando que cada puerta se transforme en una obra de arte que fusiona belleza y funcionalidad. Prestamos especial atención a cada detalle y toque artístico para superar las expectativas de nuestros clientes, convirtiendo cada concepto en una realidad que irradia lujo y elegancia."
           center
         />
 

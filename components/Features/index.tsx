@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Caractéristiques Principales"
-            paragraph="Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Nuestros Principales Beneficios"
+            paragraph="Ofrecemos soluciones en puertas que combinan calidad, personalización y una instalación profesional para garantizar funcionalidad, estilo y seguridad en cada espacio."
             center
           />
 

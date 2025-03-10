@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Conçu pour la Métallerie, les Portes en Fer et la Fabrication Sur Mesure."
-                paragraph="Notre objectif principal est de fournir des portes en fer de haute qualité, durables et sur mesure pour les maisons, garages et immeubles. Nous allions sécurité et esthétique grâce à un savoir-faire expert et une finition précise."
+                title="Diseñado para la Carpintería, Puertas de Madera y Fabricación a Medida"
+                paragraph="Nuestro principal objetivo es ofrecer puertas de madera de alta calidad, duraderas y diseñadas a medida para hogares, oficinas y otros espacios. Combinamos seguridad y estética gracias a una artesanía experta y un acabado impecable."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Qualité Premium" />
-                    <List text="Conceptions Personnalisées" />
-                    <List text="Durabilité Garantie" />
+                    <List text="Calidad Premium" />
+                    <List text="Diseños Personalizados" />
+                    <List text="Durabilidad Garantizada" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Installation Professionnelle" />
-                    <List text="Savoir-Faire Expert" />
-                    <List text="Solide. Sécurisé. Élégant" />
+                    <List text="Instalación Profesional" />
+                    <List text="Experiencia y Savoir-Faire" />
+                    <List text="Robustez. Seguridad. Elegancia" />
                   </div>
                 </div>
               </div>

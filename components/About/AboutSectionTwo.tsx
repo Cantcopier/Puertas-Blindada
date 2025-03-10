@@ -28,29 +28,26 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Travail de qualité
+                Trabajo de Precisión
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Nous garantissons un travail soigné et précis, avec une finition impeccable pour une durabilité maximale.
+                Garantizamos una ejecución precisa y meticulosa con acabados de alta calidad para asegurar la máxima durabilidad y estética.
 
 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Support premium
+                Soporte Exclusivo
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Un accompagnement professionnel pour répondre à tous vos besoins et assurer votre satisfaction.
-
+                Nuestro equipo profesional está listo para satisfacer todas tus necesidades y garantizar tu completa satisfacción
 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Fabrication sur mesure
-                </h3>
+                Diseño Personalizado                </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Des conceptions personnalisées adaptées à votre style et à vos exigences.
-
+                Ofrecemos diseños a medida que se adaptan a tu estilo y necesidades, brindándote una puerta que refleje tu gusto personal.
                 </p>
               </div>
             </div>
