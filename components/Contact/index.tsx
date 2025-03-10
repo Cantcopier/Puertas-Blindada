@@ -36,21 +36,21 @@ const Contact = () => {
 
   const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+
     const form = e.target as HTMLFormElement;
     const name = form.value;
     const email = form.email.value;
     const message = form.message.value;
-  
+
     const errors = validateForm(name, email, message);
-  
+
     if (Object.keys(errors).length === 0) {
       handleSubmit(e);
     } else {
       setFormErrors(errors);
     }
   };
-  
+
 
   useEffect(() => {
     if (state.succeeded) {
@@ -79,10 +79,11 @@ const Contact = () => {
               ) : (
                 <>
                   <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                    Contact Nos
+                    Números de contacto
                   </h2>
                   <p className="mb-12 text-base font-medium text-body-color">
-                    Our support team will get back to you via email.
+                    Nuestro equipo de soporte se comunicará con usted por correo electrónico.
+
                   </p>
                   <form onSubmit={handleFormSubmit}>
                     <div className="-mx-4 flex flex-wrap">
@@ -92,7 +93,7 @@ const Contact = () => {
                             htmlFor="name"
                             className="mb-3 block text-sm font-medium text-dark dark:text-white"
                           >
-                            Your Name
+                            Su nombre
                           </label>
                           <input
                             type="text"
@@ -109,8 +110,7 @@ const Contact = () => {
                             htmlFor="email"
                             className="mb-3 block text-sm font-medium text-dark dark:text-white"
                           >
-                            Your Email
-                          </label>
+                            Tu correo electrónico                          </label>
                           <input
                             type="email"
                             name="email"
@@ -126,7 +126,7 @@ const Contact = () => {
                             htmlFor="message"
                             className="mb-3 block text-sm font-medium text-dark dark:text-white"
                           >
-                            Your Message
+                            Tu mensaje
                           </label>
                           <textarea
                             name="message"
@@ -139,8 +139,7 @@ const Contact = () => {
                       </div>
                       <div className="w-full px-4">
                         <button className="shadow-submit dark:shadow-submit-dark rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90">
-                          Submit Message
-                        </button>
+                        Enviar mensaje                        </button>
                       </div>
                     </div>
                   </form>

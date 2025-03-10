@@ -16,7 +16,7 @@ const BlogSidebarClient = () => {
           {/* Contenu principal */}
           <div className="w-full px-4 lg:w-8/12">
             <h1 className="mb-6 text-2xl font-semibold text-black dark:text-white sm:text-3xl">
-              Nos Derniers Articles
+            Nuestros últimos artículos
             </h1>
 
             {/* Image principale */}
@@ -36,8 +36,7 @@ const BlogSidebarClient = () => {
           <div className="w-full px-4 lg:w-4/12">
             <div className="mb-8 rounded-md bg-white p-4 shadow-sm dark:bg-gray-dark dark:shadow-none">
               <h3 className="border-b border-gray-300 pb-2 text-base font-semibold text-black dark:border-white dark:text-white">
-                Tous les images
-              </h3>
+              Todas las imágenes              </h3>
 
               <ul className="p-4 grid grid-cols-2 gap-8 xl:block xl:overflow-auto xl:h-[500px]">
                 {blogData.map((item, index) => (
